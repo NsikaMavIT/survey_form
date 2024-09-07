@@ -64,6 +64,17 @@ html, body {
   border-radius: 5px;
   margin-left: 1rem;
   padding: 10px;
+  
+}
+
+#dropdown {
+  width: 250px;
+  height: 3.5rem;
+}
+
+.options {
+  background-color: rgb(128, 124, 124);
+  font-size: 18px;
 }
 #name-label, #email-label, #number-label, #dropdown-label  {
   margin-left: 1rem;
