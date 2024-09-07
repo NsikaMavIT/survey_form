@@ -1,0 +1,97 @@
+/* General Style */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+html, body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(171, 83, 83);
+  text-align: center;  
+}
+.surveyContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 1rem;
+}
+
+
+#description {
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Forms starts here */
+.form {
+  background-color: rgb(71, 52, 52);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  padding: 2rem;
+  color: white;
+  /* width:240px; */
+  display: inline-block;
+  
+
+/* #survey-form {
+  background-color: black;
+  border-width: 100px;
+  height: 800px;
+  justify-content: space-around; */
+}
+#name, #email, #number, #dropdown {
+  margin-top: 0.5rem;
+  border-color: rgb(171, 83, 83);
+  width: 250px;
+  height: 2.5rem;
+  border-width: 0.2rem;
+  border-radius: 5px;
+  margin-left: 1rem;
+  padding: 10px;
+}
+#name-label, #email-label, #number-label, #dropdown-label  {
+  margin-left: 1rem;
+}
+
+.fieldContainer,.checkbox-field, .comments-area {
+  border: none;
+  width: 250px;
+  padding: 5px;
+  margin-left: 1rem;
+  justify-content: center;
+  display: inline-box;
+}
+
+textarea {
+  width: 250px;
+  radius: 5px;
+  margin-left: 1rem;
+  padding: 10px;
+  border-color: rgb(171, 83, 83);
+}
+#submit {
+  width: 200px;
+  height: 40px;
+  margin-left: 1rem;
+  background-color: rgb(44, 154, 44);
+  border-color: rgb(44,154, 44);
+  border-radius: 5px;
+  color: white;
+  display: inline-box;
+}
